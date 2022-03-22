@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
  
-    <title>Página de Guilherme, sobre TWD</title>
+    <title>Landing Page TWD</title>
     <link rel="stylesheet" href="./assets/css/style.css"> <!-- Serve para referenciar o arquivo Style.css (Externo) -->
   </head>
   <body class="container-2">
@@ -55,7 +55,6 @@
             </li>
         </ul>   
         <form class="d-flex align-items-center">
-            <a class="d-flex flex-column mr-4 mt-2 align-items-center" href="#"><img id="login" src="/assets/image/SignIn.png" alt=""><span class="text-light text-center">Entrar</span></a> 
             <input class="form-control mr-2" type="search" placeholder="Pesquisar" aria-label="Search">
             <button class="btn btn-outline-light m-2" type="submit">Pesquisar</button>
         </form>
@@ -227,22 +226,18 @@
   <!-- /Texto e Video -->
   
   <!-- Formulário de contato -->
-      <div class="row">
-          <div class="col-md-6">
-              <form class="pl-4"> 
-                
-              <h4 class="text-left fontContato text-light mb-4"> 
-                Entre em contato conosco abaixo
-            </h4>
-   
-                  <div class="form-group text-light text-left">
-                    <label for="exampleFormControlInput1">Endereço de Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-                  </div>
-                 <div class="form-group text-light text-left">
-                    <label for="exampleFormControlInput1">Assunto</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite aqui o assunto desejado">
-                  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <form class="px-4">   
+        <h4 class="text-left fontContato text-light mb-4">Entre em contato conosco abaixo </h4> 
+          <div class="form-group text-light text-left">
+            <label for="exampleFormControlInput1">Endereço de Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+          </div>
+          <div class="form-group text-light text-left">
+            <label for="exampleFormControlInput1">Assunto</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Digite aqui o assunto desejado">
+          </div>
   
                   <div class="form-group text-light text-left">
                     <label for="exampleFormControlTextarea1">Descrição</label>
@@ -253,51 +248,37 @@
                   </div>
                 </form>
           </div>
-  
-          <div class="col-md-6 pr-4">
+          <div class="col-md-6 px-4">
             <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.132627641532!2d-84.52747078480485!3d33.28919308082046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f4949c31bada11%3A0xb7c4cb526769da0b!2sThe%20Walking%20Dead%20set%20studios!5e0!3m2!1spt-BR!2sbr!4v1642175083697!5m2!1spt-BR!2sbr"  width= "400" height= "400" frameborder="0" style= "border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id='mapa'></iframe>
           </div>
       </div>
     </div>
            
-<!-- Formumário de contato -->
-<!-- Rodapé-->
-    <footer>
-        <div class="row mb-1">
-            <div class="col-md-12 d-flex justify-content-center ">
-                <a href="https://github.com/moreiraguui" target="_blank" class=m-4>
-                    <img class="logoRede" src="assets/image/github.png" alt="Logo do Git Hub">
-                    </a>
-                <a href="https://www.Linkedin.com/in/guilherme-moreira-souza/" target ="_blank" class=m-4>
-                    <img class="logoRede" src="assets/image/linkedin.png" alt="Logo do Linkedim">
-                 </a>
-                <a class="logoDisc" href="https://discord.com/channels/GuilhermeM#8743/" target="_blank" class=m-4> <!-- target = _blank para abrir em outra pagina-->
-                <img class="logoRede text-justify" src="assets/image/discord.png" alt="Logo do Discord">
-                <span class="textColor">/GuilhermeM#8743</span>
-                </a>
-                
-                
-            </div>
-        </div>
-    </div>
-            <div class="row">
-                <div class="col-md-12">
-                   <p class ="text-center">
-                        Todos os direitos reservados para: Guilherme Moreira &copy
-                   </p>
-                   <p class="text-center">Produzido com CSS e BootStrap</p>
-                </div>
-            </div>
-    </footer>      
+<!-- Fim do formumário de contato -->
 
-    <script src="/assets/js/script.js"></script>
-<!--/Rodapé-->
+<!-- Rodapé-->
+<footer>
+  <div class="row"> 
+    <div class="col-md-12 my-3">
+      <a href="https://github.com/moreiraguui" target="_blank">
+        <img class="logoRede" src="assets/image/github.png" alt="Logo do Git Hub"></a>
+      <a href="https://www.Linkedin.com/in/guilherme-moreira-souza/" target ="_blank">
+        <img class="logoRede" src="assets/image/linkedin.png" alt="Logo do Linkedin"></a>              
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <p class ="text-center">Todos os direitos reservados para: Guilherme Moreira &copy</p>
+      <p class="text-center">Produzido com CSS e BootStrap</p>
+    </div>
+  </div>
+</footer>      
+<!--Fim do Rodapé-->
+<script src="/assets/js/script.js"></script>
 
 <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-
-
-  </body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
 </html>
